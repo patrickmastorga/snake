@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body style="background-color:black;">
+    <canvas id="game" width="" height="150" style="border: 1px solid white;"></canvas>
+  
+    <br>
+    
+    <button id="toggle" style="font-family:Arial; font-size: 20px;" onclick="toggle()">settings</button>
+  
+    <div id="settings" style="display:none;">
+        <label for="width">width:⠀</label>
+        <input id="width" type="number" style="color:black;" size="10" value="30"/><br>
+
+        <label for="height">height:⠀</label>
+        <input id="height" type="number" style="color:black;" value="20"/><br>
+
+        <label for="interval">interval (ms):⠀</label>
+        <input id="interval" type="number" style="color:black;" value="100"/><br>
+
+        <label for="increment">increment:⠀</label>
+        <input id="increment" type="number" style="color:black;" value="4"/><br>
+
+        <button id="submit" style="color:black;" onclick="submit()">submit</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

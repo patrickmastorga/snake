@@ -1,0 +1,11 @@
+.wow {
+    width: 100px;
+}
+input[type='number']{
+    width: 60px;
+} 
+#settings > * {
+    font-family:Arial;
+    color:white;
+    font-size: 20px;
+}
