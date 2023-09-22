@@ -1,3 +1,11 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#game {
+    border: 1px solid white;
+}
 .wow {
     width: 100px;
 }
